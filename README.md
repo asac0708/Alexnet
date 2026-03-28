@@ -1,4 +1,4 @@
-# AlexNet CIFAR-10 🧠
+# AlexNet CIFAR-10 
 
 Implementación de la arquitectura **AlexNet** adaptada para clasificación de imágenes en el dataset **CIFAR-10**, usando TensorFlow/Keras.
 
@@ -48,42 +48,24 @@ Las métricas detalladas por clase se encuentran en `results/metrics.txt` y `res
 ```
 alexnet-cifar10/
 │
-├── alexnet_cifar10.ipynb     ← Notebook principal (Colab)
-├── train.py                  ← Script de entrenamiento
+├── alexnet_cifar10.py     ← Notebook principal (Colab)
 ├── requirements.txt          ← Dependencias
 ├── README.md
 │
 └── results/
     ├── metrics.txt
-    ├── metrics.json
     ├── training_curves.png
     ├── confusion_matrix.png
-    ├── sample_predictions.png
-    └── alexnet_cifar10_final.keras
 ```
-
+Por el peso del archivo del modelo (>100 MB) la plataforma no permite subirlo. Se entrega por la plataforma de E-aulas e igual al correr el archivo se generará un nuevo .keras
 ---
 
 ## Cómo ejecutar
 
-### Opción A — Google Colab (recomendado)
-1. Abrir `alexnet_cifar10.ipynb` en Colab
+### Google Colab
+1. Abrir `alexnet_cifar10.py` en Colab
 2. Activar GPU: `Runtime > Change runtime type > T4 GPU`
 3. Ejecutar todas las celdas
-
-### Opción B — Local
-
-```bash
-# Clonar repositorio
-git clone https://github.com/<tu-usuario>/alexnet-cifar10.git
-cd alexnet-cifar10
-
-# Instalar dependencias
-pip install -r requirements.txt
-
-# Entrenar
-python train.py
-```
 
 ---
 
