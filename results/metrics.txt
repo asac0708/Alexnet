@@ -1,0 +1,25 @@
+AlexNet CIFAR-10 — Metricas Finales
+========================================
+test_loss: 0.6799837350845337
+test_accuracy: 0.7813000082969666
+best_val_accuracy: 0.8032000064849854
+epochs_trained: 50
+total_parameters: 21623562
+
+--- Reporte por Clase ---
+              precision    recall  f1-score   support
+
+    airplane     0.7922    0.8500    0.8201      1000
+  automobile     0.8455    0.9140    0.8784      1000
+        bird     0.7759    0.6580    0.7121      1000
+         cat     0.6385    0.5670    0.6006      1000
+        deer     0.7856    0.7000    0.7403      1000
+         dog     0.7312    0.6530    0.6899      1000
+        frog     0.7284    0.9090    0.8087      1000
+       horse     0.7769    0.8600    0.8163      1000
+        ship     0.9264    0.8430    0.8827      1000
+       truck     0.8096    0.8590    0.8336      1000
+
+    accuracy                         0.7813     10000
+   macro avg     0.7810    0.7813    0.7783     10000
+weighted avg     0.7810    0.7813    0.7783     10000
